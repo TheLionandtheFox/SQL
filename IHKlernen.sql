@@ -1,6 +1,9 @@
--- Datenbank prüfen, erstellen und auswählen
+-- Datenbank erstellen und auswählen
 CREATE DATABASE IF NOT EXISTS Pruefung;
 USE Pruefung;
+
+-- Hinweis: Die leeren Werte oder Fehler sind beabsichtigt
+-- In Prüfungen dient dies zur Übung von Abfragen auf fehlende Daten (z.B. WHERE Ort = '').
 
 -- Tabelle Objekt
 CREATE TABLE IF NOT EXISTS Objekt (
@@ -78,3 +81,34 @@ INSERT INTO Mitarbeiter (MID, Nachname, Vorname, Geburtstag) VALUES
 (48, 'Popov', 'Alexei', '1979-12-12'),
 (49, 'Johansson', 'Karin', '1990-01-01'),
 (50, 'Martinez', 'Sofia', '2002-05-20');
+
+
+CREATE TABLE IF NOT EXISTS Taetigkeit (
+	TID INT PRIMARY KEY,
+    Bezeichnung VARCHAR(100)
+);
+
+INSERT INTO Taetigkeit (TID, Bezeichnung) VALUES
+(1, 'Rosenschnitt'),
+(2, 'Rasen mähen'),
+(3, 'Unkrautjäten'),
+(4, 'Bäume_stutzen'),
+(5, 'Orchideen bewässern'),
+(6, 'Avocados pflücken'),
+(7, 'Bewässern'),
+(8, 'Heckenschnitt');
+
+CREATE TABLE IF NOT EXISTS Pflegearbeit (
+    PID INT PRIMARY KEY,
+    OID INT,
+    TID INT,
+    MID_Soll INT,
+    MID_Ist INT,
+    Datum_Soll DATE,
+    Datum_Abschluss DATE,
+    FOREIGN KEY (OID) REFERENCES Objekt (OID),
+    FOREIGN KEY (TID) REFERENCES Taetigkeit (TID),
+    FOREIGN KEY (MID_Soll) REFERENCES Mitarbeiter (MID),
+    FOREIGN KEY (MID_Ist) REFERENCES Mitarbeiter (MID)
+);
+
