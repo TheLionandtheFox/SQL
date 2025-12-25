@@ -10,7 +10,7 @@ Ich habe mich für die MIT-Lizenz entschieden, möchte diese aber um ein paar pe
 
 1. **Kommerzielle Nutzung verboten:** Dieses Projekt entstand in meiner Freizeit, um anderen kostenlos zu helfen, deswegen untersage ich hiermit ausdrücklich jede kommerzielle Nutzung. Das bedeutet: Diese Dateien dürfen nicht verkauft werden und sie dürfen nicht Teil von kostenpflichtigen Lernplattformen, Kursen oder Büchern werden. Das Projekt soll von der Community für die Community bleiben.Vom Schüler für Schüler. Nochmal: Die **kommerzielle Nutzung**, der Weiterverkauf oder die Einbindung in kostenpflichtige Lernplattformen ist **strikt untersagt**. Es muss für jeden kostenlos zugänglich sein.
 2. **Private Nutzung zum Lernen:** Ihr könnt die Dateien uneingeschränkt nutzen, um für eure eigenen Prüfungen zu lernen, sie zu erweitern oder sie lokal bei euch zu testen. Die private Nutzung zum Lernen für Prüfungen ist ausdrücklich erlaubt und erwünscht und soll kostenlos sein und bleiben!
-3. **Namensnennung:** Bei Weitergabe muss der Urheber  genannt werden. Falls ihr Teile dieses Projekts weitergebt oder in euren eigenen öffentlichen Repositories nutzt, seid bitte so fair und nennt mich als Urheber (@TheLionandtheFox). Vielen dank.
+3. **Namensnennung:** Bei Weitergabe muss der Urheber  genannt werden. Falls ihr Teile dieses Projekts weitergebt oder in euren eigenen öffentlichen Repositories nutzt, seid bitte so fair und nennt mich als Urheber (@TheLionandtheFox @Mulder). Vielen dank.
 
 ## Technische Details und Arbeitsweise
 
